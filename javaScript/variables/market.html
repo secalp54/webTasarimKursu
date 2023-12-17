@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ucret=prompt("Kaç Liralık su almak istersiniz?");
+        var siseUcreti=3.25;
+        hesapla(ucret);
+        
+        function hesapla(ucret){
+            var siseAdeti=Math.floor(ucret/siseUcreti);
+            var paraUstu=ucret % siseUcreti;
+            console.log(ucret+" karşılığında alabileceğiniz şişe sayısı:"+siseAdeti+" para üstünüz:"+paraUstu);
+        }
+    </script>
+</body>
+</html>

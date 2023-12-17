@@ -1,0 +1,32 @@
+body {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  /* yukardaki css kodunu bozmayın css kodunuzu aşağı yazabilirsiniz */
+  html {
+    font-size: 30px;
+  }
+
+  #coral {
+    color: coral;
+  }
+
+  #fontSize {
+    font-size: 2rem;
+  }
+
+  #weight {
+    font-weight: 900;
+  }
+  #caveat{
+    font-family: 'Caveat', cursive;
+  }
+  .renk{
+    color:azure;
+  }
+  #align{
+    text-align: right;
+  }

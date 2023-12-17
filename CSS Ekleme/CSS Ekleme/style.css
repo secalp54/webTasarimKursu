@@ -1,0 +1,15 @@
+
+h1{
+  color: blueviolet;  
+}
+
+.kirmizi{
+    color:red;
+}
+.mavi{
+    color:blue;
+}
+
+p[draggable="false"]{
+    color:bisque;
+}

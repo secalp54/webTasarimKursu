@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ucret=prompt("Kaç Liralık su almak istersiniz?");
+        var siseUcreti=3;
+        function suAdetiHesapla(ucret){
+            var sonuc=Math.floor(ucret/siseUcreti);
+            return sonuc;
+        }
+
+        function artanParayiHesapla(ucret){
+            var sonuc=ucret % siseUcreti;
+            return sonuc;
+        }
+
+        var alacaginizSuAdeti=suAdetiHesapla(ucret);
+        var paraUstu=artanParayiHesapla(ucret);
+        alert("Alacağınız su şişesi:"+alacaginizSuAdeti);
+        alert("Paraustu:"+paraUstu);
+    </script>
+</body>
+</html>

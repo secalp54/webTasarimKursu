@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <style>
+    /* css kodunuzu buraya yazınız */
+    .kutu{
+      height: 200px;
+      width: 200px;
+    }
+    p{
+      margin: 0px;
+      padding: 0px;
+    }
+    #box1{
+      border: 10px solid black;
+      background-color: cadetblue;
+      padding: 20px;
+    }
+    #box2{
+      border:solid;
+      border-width: 20px 10px;
+      background-color: gold;
+      margin-left: 260px;
+    }
+    #box3{
+      border: solid;
+      border-width: 10px;
+      background-color: indianred;
+      margin-left: 40px;
+    }
+  </style>
+</head>
+
+<body>
+<div id="box1" class="kutu">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nesciunt ratione blanditiis harum molestiae ipsam cumque tempore voluptates, esse sed autem. Fugiat impedit vero voluptatem nesciunt cumque quam ea iste.</p>
+</div>
+<div id="box2" class="kutu"></div>
+<div id="box3" class="kutu"></div>
+
+  <!-- TODOs:
+1. 3 adet div elementi oluşturun.
+2. yükseklik ve genişliklerini 200px olarak ayarlayın(height ve width)
+3. Kutuların her biri için farklı arka plan renkleri ayarlayın sırayla(Cadetblue, gold ve indianred kullanın).
+4. ilk div içine paragraf elemanı ekleyin. İçinde aşağıdaki metin olsun:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+5. 1. div'i, etrafı 10 piksellik siyah bir kenarlıkla her tarafından 20 piksellik padding sahip olacak şekilde ayarlayın.
+6. Tüm kenar marginlerini kaldırmak için <p> öğesinin stilini düzeltin.
+*: Chromedaki geliştirici ayarlarını kullanabilirsiniz.
+7. 2. div'i üstte ve altta 20 piksel, solda ve sağda 10 piksel kenarlık olacak şekilde ayarlayın. (hedef resimdeki gibi)
+8. 3. div'e tüm kenarlara 10 px kenarlık ekleyin
+9. Div'lerin kenar boşluklarını her kutunun köşesi diğerine değecek şekilde ayarlayın. (hedef resme bakın)
+-->
+
+</body>
+
+</html>

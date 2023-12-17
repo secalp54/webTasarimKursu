@@ -1,0 +1,22 @@
+ol {
+  margin-left: -40px;
+  margin-top: -18px;
+  list-style-position:inside ;
+}
+
+/* css kodlarını aşağıya yazınız. */
+p{
+  color: red;
+}
+.note{
+  font-size: 20px;
+}
+#id-selector-demo{
+  color:green;
+}
+li[value="4"]{
+  color:purple;
+}
+*{
+  text-align: center;
+}
