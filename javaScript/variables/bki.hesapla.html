@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var b=prompt("Boyunuzu metre cinsinden giriniz");
+        var k=prompt("kilonuz");
+
+        console.log("BKİ değeriniz: "+bkiHesapla(b,k));
+
+        function bkiHesapla(boy,kilo){
+            var sonuc=kilo/(boy*boy);
+            return Math.floor(sonuc);
+        }
+    </script>
+</body>
+</html>
