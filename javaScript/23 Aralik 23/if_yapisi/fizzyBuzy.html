@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var number = [];
+        var sayac = 13;
+        function fizzyBuzzy() {
+            if ((sayac % 3 === 0) && (sayac % 5 === 0)) {
+                number.push("fizzyBuzzy");
+            } else if (sayac % 3 === 0) {
+                number.push("fizzy");
+            }
+            else if (sayac % 5 === 0) {
+                number.push("buzzy");
+            } else {
+                number.push(sayac);
+            }
+            sayac++;
+        }
+    </script>
+</body>
+
+</html>
