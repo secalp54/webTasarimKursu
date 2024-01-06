@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    for (let sayac=1;sayac<=100;sayac++){
+       //yapılacak işlemler
+      if (sayac % 3===0 && sayac % 5 ===0){
+        console.log("FizzyBuzzy");
+      }else if (sayac % 3===0 ){
+        console.log("Fizzy");
+      } else if(sayac % 5===0){
+        console.log("Buzzy")
+      } else{
+        console.log(sayac);
+        
+      }
+
+      if (sayac===20){
+            break;
+        }
+    }
+    </script>
+</body>
+</html>
