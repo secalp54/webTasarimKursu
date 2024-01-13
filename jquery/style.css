@@ -1,0 +1,9 @@
+.baslik{
+   font-size: 3rem;
+   background-color: brown;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
