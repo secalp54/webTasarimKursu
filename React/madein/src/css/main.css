@@ -1,0 +1,16 @@
+.test{
+color:red;
+
+}
+
+.yukseklik{
+    height: 100vh;
+}
+img{
+    border-radius: 10px;
+}
+
+.ogle{
+    background-image:url("./resim/ogle.png") ;
+    background-size: cover;
+}

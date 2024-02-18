@@ -1,0 +1,18 @@
+.sabah{
+  background-image: url('../images/sabah.jpg');
+  background-size: cover;
+}
+.ogle{
+    background-image: url('../images/ogle.jpg');
+    background-size: cover;
+}
+.aksam{
+    background-image: url('../images/aksam.jpg');
+    background-size: cover;
+}
+.yukseklik{
+    height: 100vh;
+}
+div>h1{
+    color: aliceblue;
+}

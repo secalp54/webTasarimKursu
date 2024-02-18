@@ -1,3 +1,9 @@
 .kapla{
     height: 100vh;
 }
+.gizle{
+    display: none;
+}
+.hata{
+    border: 1px solid red;
+}
