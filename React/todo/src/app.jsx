@@ -1,11 +1,30 @@
 import React from 'react'
 import { useState } from 'react';
+import Eleman from './component/Eleman';
+import Heading from './component/Heading';
 
 export default function App() {
 
-  const [listem,setListem]=useState([]);
+  const [listem,setListem]=useState([]);//"sinemaya git,markete git"
   const [inputText,setInputText]=useState("");
   var txt="";
+
+
+  function deleteItem(id){
+    console.log(id+"elemanı sil");
+
+    setListem((onceki)=>{
+      return onceki.filter((eleman,index)=>{
+        return index!=id;
+      });
+    })
+
+    
+    
+    
+
+
+  }
 
   function handleKey(e){
     if (e.keyCode===13){
@@ -29,9 +48,8 @@ export default function App() {
 
   return (
     <div className='container'>
-        <div className='heading'>
-          <h1>Yapılacaklar Listesi</h1>
-        </div>
+        
+        <Heading/>
 
         <div className='form'>
           <input onKeyDown={handleKey} onChange={handleChange} placeholder='Yapılacak is' value={inputText}></input>
@@ -39,7 +57,8 @@ export default function App() {
         </div>
         <ul>
           {
-          listem.map((eleman,index)=><li key={index}>{eleman}</li>)
+            ////"sinemaya git,markete git,zıpla"
+          listem.map((eleman,index)=><Eleman onDelete={deleteItem} item={eleman} id={index}/>)
           }
         </ul>
     </div>

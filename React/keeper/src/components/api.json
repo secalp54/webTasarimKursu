@@ -1,0 +1,90 @@
+{
+    "success": true,
+    "city": "ankara",
+    "result": [
+        {
+            "date": "02.03.2024",
+            "day": "Cumartesi",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "hafif yağmur",
+            "status": "Rain",
+            "degree": "14.79",
+            "min": "8.48",
+            "max": "15.07",
+            "night": "8.48",
+            "humidity": "35"
+        },
+        {
+            "date": "03.03.2024",
+            "day": "Pazar",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "hafif yağmur",
+            "status": "Rain",
+            "degree": "11.59",
+            "min": "7.22",
+            "max": "12.19",
+            "night": "7.53",
+            "humidity": "53"
+        },
+        {
+            "date": "04.03.2024",
+            "day": "Pazartesi",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "hafif yağmur",
+            "status": "Rain",
+            "degree": "12.54",
+            "min": "5.05",
+            "max": "13.31",
+            "night": "8.5",
+            "humidity": "49"
+        },
+        {
+            "date": "05.03.2024",
+            "day": "Salı",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "orta şiddetli yağmur",
+            "status": "Rain",
+            "degree": "13.99",
+            "min": "4.92",
+            "max": "15.51",
+            "night": "4.92",
+            "humidity": "43"
+        },
+        {
+            "date": "06.03.2024",
+            "day": "Çarşamba",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "hafif yağmur",
+            "status": "Rain",
+            "degree": "8.02",
+            "min": "4.81",
+            "max": "8.21",
+            "night": "4.9",
+            "humidity": "66"
+        },
+        {
+            "date": "07.03.2024",
+            "day": "Perşembe",
+            "icon": "https://cdnydm.com/permedia/fji5nQfowvEYJBdnLsvrgA.png?size=512x512",
+            "description": "parçalı az bulutlu",
+            "status": "Clouds",
+            "degree": "8.19",
+            "min": "2.6",
+            "max": "9.14",
+            "night": "8.06",
+            "humidity": "62"
+        },
+        {
+            "date": "08.03.2024",
+            "day": "Cuma",
+            "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+            "description": "hafif yağmur",
+            "status": "Rain",
+            "degree": "5.57",
+            "min": "3.93",
+            "max": "6.74",
+            "night": "3.93",
+            "humidity": "85"
+        }
+    ]
+}
